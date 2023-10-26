@@ -7,6 +7,7 @@ def algoritmoBurbuja(lista):
         for j in range(numero-1-i): # bucle hijo
             if lista[j] > lista[j+1]:
                 lista[j], lista[j+1] = lista[j+1], lista[j]
+    return lista
 
 if __name__=="__main__":
     #entrada
